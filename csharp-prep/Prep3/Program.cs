@@ -24,9 +24,9 @@ class Program
             
             if (guess == magic_number)
             {
-                Console.WriteLine("'You guessed it in {counter} guesses.");
+                Console.WriteLine($"You guessed it in {counter} guesses.");
                 incorrect = false;
-                
+                Console.Write("Do you want to play again (y/n)? ");
                 if (Console.ReadLine().ToLower() == "y") 
                 {
                     play_again = true;
