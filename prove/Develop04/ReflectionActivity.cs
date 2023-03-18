@@ -48,7 +48,7 @@ public class ReflectionActivity : Activity
 
         }
         Console.WriteLine("Well done!!");
-        PauseAnimation(5);
+        PauseAnimation(3);
 
     }
     public string GenQuestion()

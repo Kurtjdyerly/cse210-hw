@@ -34,7 +34,7 @@ public class ListingActivity : Activity
         }
         Console.WriteLine($"You listed {_answers.Count()} items!\n");
         Console.WriteLine("Well done!!");
-        PauseAnimation(5);
+        PauseAnimation(3);
 
     }
     public void AddAnswer(string answer)

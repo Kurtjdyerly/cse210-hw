@@ -15,7 +15,7 @@ public class BreathingActivity : Activity
             Console.WriteLine();
         }
         Console.WriteLine("Well done!!");
-        PauseAnimation(5);
+        PauseAnimation(3);
     }
     public BreathingActivity(string start = "Welcome to the Breathing Activity. ", string end = "This activity will hlep you relax by walking through breathing in and out slowly. Clear your mind and focus on your breathing.") : base("Welcome to the Breathing Activity. ", "This activity will hlep you relax by walking through breathing in and out slowly. Clear your mind and focus on your breathing.")
     {
