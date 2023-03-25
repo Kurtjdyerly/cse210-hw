@@ -1,0 +1,3 @@
+Simple goal,type,type in answers to this prompt,100,False
+Eternal goal,never stop winning,well just keep on winning,200,0
+Checklist goal,jump,jump high please,50,5,5,500
